@@ -1,0 +1,89 @@
+.sidebar {
+  width: 240px;
+  background: #020617;
+  color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+/* Brand */
+.sidebar-brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.logo {
+  font-size: 28px;
+}
+
+.sidebar-brand h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+/* Nav */
+.sidebar-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  flex: 1;
+}
+
+.nav-item {
+  padding: 10px 14px;
+  border-radius: 8px;
+  color: #9ca3af;
+  transition: all 0.2s ease;
+}
+
+/* Hover */
+.nav-item:hover {
+  background: #0f172a;
+  color: #22c55e;
+}
+
+/* Active */
+.nav-item.active {
+  background: rgba(34, 197, 94, 0.12);
+  color: #22c55e;
+  font-weight: 500;
+}
+
+/* Logout */
+.logout-btn {
+  margin-top: auto;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  background: #dc2626;
+  color: white;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.logout-btn:hover {
+  background: #b91c1c;
+}
+/* ===== SIDEBAR BRAND ===== */
+.sidebar-brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 30px;
+  color: var(--text); /* 🔥 KEY LINE */
+}
+
+.sidebar-brand h3 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+  color: inherit; /* 🔥 inherit theme text */
+}
+
+.logo {
+  font-size: 28px;
+  line-height: 1;
+}

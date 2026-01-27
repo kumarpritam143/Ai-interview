@@ -1,0 +1,59 @@
+/* Toolbar */
+.ide-toolbar {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+/* Problem card */
+.problem-card {
+  margin-bottom: 20px;
+}
+
+/* Main editor-output row */
+.ide-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+/* Editor */
+.ide-editor textarea {
+  width: 100%;
+  min-height: 420px;
+  padding: 14px;
+  border-radius: 10px;
+  border: 1px solid #cbd5f5;
+  font-family: monospace;
+  font-size: 14px;
+  resize: none;
+}
+
+/* Output */
+.ide-output-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.output-box {
+  background: #020617;
+  color: #e5e7eb;
+  padding: 14px;
+  border-radius: 8px;
+  font-size: 13px;
+  min-height: 420px;
+  white-space: pre-wrap;
+}
+
+/* Header */
+.ide-header {
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+/* Hint */
+.ai-hint {
+  background: #f8fafc;
+}

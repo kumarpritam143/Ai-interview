@@ -1,0 +1,61 @@
+.resume-upload input {
+  margin: 12px 0;
+}
+
+.ats-score-card {
+  text-align: center;
+}
+
+.ats-score {
+  font-size: 42px;
+  font-weight: 700;
+  color: #2563eb;
+  margin: 10px 0;
+}
+
+.resume-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  margin: 20px 0;
+}
+
+.score {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.score.good {
+  color: #16a34a;
+}
+
+.score.average {
+  color: #ca8a04;
+}
+
+.suggestion-list {
+  padding-left: 18px;
+}
+
+.suggestion-list li {
+  margin-bottom: 6px;
+}
+
+.action-card {
+  text-align: center;
+}.form-label {
+  display: block;
+  margin-top: 12px;
+  margin-bottom: 4px;
+  font-size: 14px;
+  color: #475569;
+}
+
+.resume-upload select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #cbd5f5;
+  margin-bottom: 12px;
+}
+

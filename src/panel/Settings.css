@@ -1,0 +1,32 @@
+/* TWO COLUMN GRID */
+.settings-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  margin-top: 24px;
+}
+
+/* Card height control */
+.settings-card {
+  height: fit-content;
+}
+
+/* Full width card (Account) */
+.settings-card.full {
+  grid-column: 1 / -1;
+}
+
+/* Toggle rows */
+.toggle-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+
+/* Save button alignment */
+.settings-footer {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 24px;
+}
